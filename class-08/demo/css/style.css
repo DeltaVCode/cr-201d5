@@ -1,0 +1,132 @@
+*{
+  }
+  
+  body {
+      background-color: #ccc;
+    }
+
+    header {
+      /*width: 500px; */
+      padding: 30px;
+      border: solid 10px lightblue;
+      background-color: #fff;
+      /*width: calc(50% - 80px);*/
+      box-sizing: border-box;
+    }
+    
+    h1 {
+      text-align: center;
+      font-size: 55px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 50px;
+    }
+
+    a {
+      padding: 12px;
+      background-color: #222;
+      color: #eee;
+      margin: 0 auto;
+    }
+    nav {
+      background-color: navy;
+      padding: 30px;
+      margin-top: 20px;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      clear: both;
+      overflow: hidden;
+    }
+    li {
+      display: inline-block;
+      margin: auto;
+    }
+
+    li:first-child {
+      float: left;
+    }
+
+    li:last-child {
+      float: right;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 15px;
+      background: #ccc;
+      color: #333;
+    }
+
+    .float-me li {
+      float: left;
+      width: 33%;
+      box-sizing: border-box;
+      margin: 0;
+    }
+
+    .float-me li:last-child {
+      text-align: right;
+    }
+
+    .float-me li:nth-child(2) {
+      text-align: center;
+    }
+
+    
+    .left {
+      position: absolute;
+      left: 40px;
+    }
+    
+    .middle {
+      position: absolute;
+      left: 48%;
+    }
+    
+    .right {
+      position: absolute;
+      right: 40px;
+    }
+    
+    div {
+      margin: 0 auto;
+      height: 42px;
+    }
+    
+    main {
+      margin: 20px;
+      background-color: rgb(19, 162, 228);
+      display: inline-block;
+      padding-bottom: 50px;
+      padding: 25px;
+      font-size: 24px;
+      line-height: 1.3em;
+    }
+    
+    p {
+      /* change to show paragraph extend */
+      max-width: 75%;
+      display: inline-block;
+    }
+    
+    img {
+      float: right;
+      margin-right: 20px;
+    }
+  
+    footer {
+     
+        position: fixed;
+        width: 100%;
+       bottom: 0;
+        background-color: lightblue;
+        opacity: 0.5;
+        height: 150px;
+      
+    }
+  
+  
